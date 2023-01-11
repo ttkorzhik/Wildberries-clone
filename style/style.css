@@ -1,14 +1,14 @@
-@import "./basket.css";
-@import "./header.css";
-@import "./slider.css";
-@import "./footer.css";
-@import "./main.css";
-@import "./burger.css";
-@import "./popupImg.css";
-@import "./chat.css";
-@import "./adress.css";
-@import "./authorization.css";
-@import "./adaptive.css";
+@import "basket.css";
+@import "header.css";
+@import "slider.css";
+@import "footer.css";
+@import "main.css";
+@import "burger.css";
+@import "popupImg.css";
+@import "chat.css";
+@import "adress.css";
+@import "authorization.css";
+@import "adaptive.css";
 
 * {
 	margin: 0;
