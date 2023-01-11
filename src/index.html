@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Roboto:wght@400;500;700;900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="./style/style.css">
+	<link rel="shortcut icon" href="style/assets/favicon/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="style/assets/favicon/favicon.ico" type="image/x-icon">
+	<title>Wildberries - online shop</title>
+</head>
+
+<body>
+	<header class="header" id="header">
+		<div class="wrapper">
+			<!--Верхняя часть Header: 1 блок (страна(с выбором), адрес, sell) 2 блок ("report a prblm")-->
+			<div class="header-top">
+				<div class="header-top-location">
+					<div class="selectCountry">
+						<div class="selectCountry-name">
+							<span class="selectCountry-current text-style">By</span>
+							<img src="style/assets/header/byLittle.png" alt="">
+						</div>
+						<ul class="selectCountry-list" name="title">
+							<span class="selectCountry-title">Выберите страну:</span>
+							<li class="selectCountry-flag-by">
+								<img src="style/assets/header/byLittle.png" alt="by-flag">
+								<a href="#">Беларусь/Belarus (BYN)</a>
+							</li>
+							<li class="selectCountry-flag-lv">
+								<img src="style/assets/header/lvLittle.png" alt="lv-flag">
+								<a href="#">Latvija/Latvia (LVL) </a>
+							</li>
+							<li class="selectCountry-flag-lt">
+								<img src="style/assets/header/ltLittle.png" alt="lt-flag">
+								<a href="#">Lietuva/Lithuania (LTL)</a>
+							</li>
+							<li class="selectCountry-flag-pl">
+								<img src="style/assets/header/plnLittle.png" alt="pl-flag">
+								<a href="#">Polska/Poland (PLN)</a>
+							</li>
+							<li class="selectCountry-flag-ru">
+								<img src="style/assets/header/rusLittle.png" alt="ru-flag">
+								<a href="#">Россия/Russia (RUB)</a>
+							</li>
+							<li class="selectCountry-flag-ua">
+								<img src="style/assets/header/uaLittle.png" alt="ua-flag">
+								<a href="#">Украïна/Ukraine (UAH)</a>
+							</li>
+							<li class="selectCountry-flag-others ">
+								<img src="style/assets/header/earthLittle.png" alt="others-flag">
+								<a href="#">Other countries (EUR)</a>
+							</li>
+						</ul>
+					</div>
+					<div class="selectCountry-address">
+						<a href="#" id="city_name" class='text-style'>
+							<svg width="16" height="24" viewBox="0 0 16 24" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									  d="M16 8.10988C16 11.7119 10.826 19.7973 8.79995 22.8253C8.41424 23.4018 7.58576 23.4018 7.20005 22.8253C5.17398 19.7973 0 11.7119 0 8.10988C0 3.63092 3.58172 0 8 0C12.4183 0 16 3.63092 16 8.10988ZM11.7333 8.10981C11.7333 10.2 10.0618 11.8944 7.99994 11.8944C5.93807 11.8944 4.2666 10.2 4.2666 8.10981C4.2666 6.01962 5.93807 4.3252 7.99994 4.3252C10.0618 4.3252 11.7333 6.01962 11.7333 8.10981Z" />
+							</svg><span></span></a>
+					</div>
+					<div class="free-delivery">
+						<span class='text-style display-none'>Бесплатная доставка</span>
+					</div>
+					<div class="header-top-sell">
+						<a class='sell-wildberries display-none' href="https://seller.wildberries.ru/registration">Продавайте
+							на
+							Wildberries</a>
+					</div>
+				</div>
+				<div class="problem-report">
+					<a class='problem-wildberries display-none' href="#">Сообщить о проблеме</a>
+				</div>
+			</div>
+			<!--Окончание верхней части header-->
+
+			<!--Нижняя часть header: burger, logo, search, address, sign in, basket-->
+			<div class="header-wrapper">
+
+				<!--Burger начало кода (menu)-->
+				<div class="menu-btn">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div>
+					<div class="wrapper-popup">
+						<div class="menu">
+							<nav>
+								<li class="burger-list"><a href="#">Одежда</a></li>
+								<li class="burger-list"><a href="#">Обувь</a></li>
+								<li class="burger-list"><a href="#">Красота и здоровье</a></li>
+								<li class="burger-list"><a href="#">Электроника</a></li>
+								<li class="burger-list"><a href="#">Бытовая техника</a></li>
+								<li class="burger-list"><a href="#">Зоотовары</a></li>
+								<li class="burger-list"><a href="#">Товары для спорта и отдыха</a></li>
+								<li class="burger-list"><a href="#">Автотовары</a></li>
+								<li class="burger-list"><a href="#">Мебель</a></li>
+								<li class="burger-list"><a href="#">Всё для ремонта</a></li>
+								<li class="burger-list"><a href="#">Premium</a></li>
+							</nav>
+							<span class="close"></span>
+						</div>
+					</div>
+				</div>
+
+				<!--Burger конец кода-->
+				<!--logo-->
+				<a href="#" class="header__logo">
+					<img class="header__logo__img display-none" src="style/assets/header/logo-v1.svg" alt="logo">
+				</a>
+				<!--search-->
+				<div class="header__search nosearch-mobile">
+					<input type="text" class="search__input" name="search" placeholder="Поиск">
+					<button class="search__btn">
+						<svg class="search__btn__svg" width="20" height="20" viewBox="0 0 20 20"
+							xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M7.74998 15C6.31521 15 4.91271 14.5743 3.72002 13.7768C2.52733 12.9792 1.5981 11.8457 1.04996 10.5198C0.501814 9.19389 0.359413 7.73513 0.64078 6.32823C0.922148 4.92132 1.61463 3.62953 2.63056 2.6164C3.6465 1.60327 4.94019 0.91436 6.34787 0.63688C7.75555 0.3594 9.21391 0.505831 10.5383 1.05763C11.8627 1.60944 12.9936 2.5418 13.7879 3.73668C14.5821 4.93157 15.0039 6.33524 15 7.77C14.992 9.68854 14.225 11.5259 12.8665 12.8807C11.508 14.2354 9.66853 14.9974 7.74998 15ZM7.74998 1.5C6.5147 1.50001 5.30712 1.86607 4.27975 2.55195C3.25238 3.23782 2.4513 4.21276 1.97767 5.35364C1.50404 6.49451 1.3791 7.75015 1.61864 8.96198C1.85819 10.1738 2.45146 11.2875 3.32354 12.1624C4.19561 13.0372 5.30739 13.6341 6.51845 13.8775C7.72951 14.1209 8.98554 14 10.1279 13.53C11.2703 13.06 12.2478 12.262 12.937 11.2369C13.6261 10.2117 13.996 9.00528 14 7.77C14 6.1124 13.3415 4.52269 12.1694 3.35059C10.9973 2.17848 9.40758 1.52 7.74998 1.52V1.5Z" />
+							<path
+								d="M19 19.5199C18.9344 19.5207 18.8694 19.5078 18.8091 19.4819C18.7488 19.4561 18.6946 19.4179 18.65 19.3699L12.17 12.8899C12.0772 12.7971 12.025 12.6712 12.025 12.5399C12.025 12.4086 12.0772 12.2827 12.17 12.1899C12.2628 12.0971 12.3887 12.0449 12.52 12.0449C12.6513 12.0449 12.7772 12.0971 12.87 12.1899L19.35 18.6699C19.3978 18.7148 19.436 18.769 19.462 18.8292C19.4881 18.8894 19.5015 18.9543 19.5015 19.0199C19.5015 19.0855 19.4881 19.1504 19.462 19.2106C19.436 19.2708 19.3978 19.325 19.35 19.3699C19.3054 19.4179 19.2511 19.4561 19.1909 19.4819C19.1306 19.5078 19.0656 19.5207 19 19.5199Z" />
+						</svg>
+					</button>
+				</div>
+				<!--Адрес, Профиль, Корзина-->
+
+				<a href="#address" class="header__address address-adaptive" id="address-link">
+					<svg class="header__address__img " width="16" height="24" viewBox="0 0 16 24" fill="none"
+						 xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd"
+							d="M16 8.10988C16 11.7119 10.826 19.7973 8.79995 22.8253C8.41424 23.4018 7.58576 23.4018 7.20005 22.8253C5.17398 19.7973 0 11.7119 0 8.10988C0 3.63092 3.58172 0 8 0C12.4183 0 16 3.63092 16 8.10988ZM11.7333 8.10981C11.7333 10.2 10.0618 11.8944 7.99994 11.8944C5.93807 11.8944 4.2666 10.2 4.2666 8.10981C4.2666 6.01962 5.93807 4.3252 7.99994 4.3252C10.0618 4.3252 11.7333 6.01962 11.7333 8.10981Z"
+							fill="white" />
+					</svg>
+					<span class="header__address__caption text-style ">Адреса</span>
+					<span class="header__address-hide"><b>475</b> пунктов выдачи</span>
+				</a>
+
+
+				<a href="#profile" class="header__profile" id="profile-link">
+					<svg class="header__profile__img" width="19" height="20" viewBox="0 0 19 20" fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd"
+							d="M14.0207 4.78873C14.0207 7.55869 11.9361 9.70657 9.50596 9.70657C7.07586 9.70657 4.99117 7.55869 4.99117 4.81221C4.97931 2.10094 7.08777 0 9.50596 0C11.9241 0 14.0207 2.05399 14.0207 4.78873ZM0 18.4977C0 19.4836 0.64326 20 2.44201 20H16.558C18.3567 20 19 19.4836 19 18.4977C19 15.6338 15.3429 11.6901 9.50596 11.6901C3.65705 11.6901 0 15.6338 0 18.4977Z"
+							fill="white" />
+					</svg>
+					<span class="header__profile__caption text-style">Войти</span>
+				</a>
+				<a href="#basket" class="header__basket" id="basket-link">
+					<svg class="header__basket__img" width="27" height="24" viewBox="0 0 27 24" fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd"
+							d="M8.5 1.5C8.5 2.5 6 2.5 4.5 2.5C3 2.5 0.5 2.5 0.5 1.5C0.5 0.5 3 0.5 4.5 0.5C6 0.5 8.5 0.5 8.5 1.5ZM11.8212 16.119C11.3452 16.1949 10.8829 15.9206 10.7214 15.4665L7.48289 6.35812C7.24913 5.70067 7.74355 5.01199 8.44122 5.02324L25.8008 5.30317C26.425 5.31324 26.8875 5.88644 26.7654 6.49865L25.4106 13.2909C25.3288 13.701 25.0004 14.017 24.5874 14.0828L11.8212 16.119ZM13.6523 21.0331C13.6523 22.3178 12.6109 23.3593 11.3262 23.3593C10.0415 23.3593 9 22.3178 9 21.0331C9 19.7484 10.0415 18.707 11.3262 18.707C12.6109 18.707 13.6523 19.7484 13.6523 21.0331ZM22.957 23.3593C24.2417 23.3593 25.2832 22.3178 25.2832 21.0331C25.2832 19.7484 24.2417 18.707 22.957 18.707C21.6723 18.707 20.6309 19.7484 20.6309 21.0331C20.6309 22.3178 21.6723 23.3593 22.957 23.3593Z"
+							fill="white" />
+					</svg>
+					<span class="header__basket__caption text-style">Корзина</span>
+				</a>
+			</div>
+			<div class="ask-toggle"> <img src="style/assets/toggle/ask.svg" alt="">
+			</div>
+			<a class="arrow-toggle" href="#header"><img src="style/assets/toggle/arrow.svg" alt=""></a>
+
+		</div>
+		<div class="header__search header-search-adaptive">
+			<input type="text" class="search__input" name="search" placeholder="Поиск">
+			<button class="search__btn">
+				<svg class="search__btn__svg" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+					<path
+							d="M7.74998 15C6.31521 15 4.91271 14.5743 3.72002 13.7768C2.52733 12.9792 1.5981 11.8457 1.04996 10.5198C0.501814 9.19389 0.359413 7.73513 0.64078 6.32823C0.922148 4.92132 1.61463 3.62953 2.63056 2.6164C3.6465 1.60327 4.94019 0.91436 6.34787 0.63688C7.75555 0.3594 9.21391 0.505831 10.5383 1.05763C11.8627 1.60944 12.9936 2.5418 13.7879 3.73668C14.5821 4.93157 15.0039 6.33524 15 7.77C14.992 9.68854 14.225 11.5259 12.8665 12.8807C11.508 14.2354 9.66853 14.9974 7.74998 15ZM7.74998 1.5C6.5147 1.50001 5.30712 1.86607 4.27975 2.55195C3.25238 3.23782 2.4513 4.21276 1.97767 5.35364C1.50404 6.49451 1.3791 7.75015 1.61864 8.96198C1.85819 10.1738 2.45146 11.2875 3.32354 12.1624C4.19561 13.0372 5.30739 13.6341 6.51845 13.8775C7.72951 14.1209 8.98554 14 10.1279 13.53C11.2703 13.06 12.2478 12.262 12.937 11.2369C13.6261 10.2117 13.996 9.00528 14 7.77C14 6.1124 13.3415 4.52269 12.1694 3.35059C10.9973 2.17848 9.40758 1.52 7.74998 1.52V1.5Z" />
+					<path
+							d="M19 19.5199C18.9344 19.5207 18.8694 19.5078 18.8091 19.4819C18.7488 19.4561 18.6946 19.4179 18.65 19.3699L12.17 12.8899C12.0772 12.7971 12.025 12.6712 12.025 12.5399C12.025 12.4086 12.0772 12.2827 12.17 12.1899C12.2628 12.0971 12.3887 12.0449 12.52 12.0449C12.6513 12.0449 12.7772 12.0971 12.87 12.1899L19.35 18.6699C19.3978 18.7148 19.436 18.769 19.462 18.8292C19.4881 18.8894 19.5015 18.9543 19.5015 19.0199C19.5015 19.0855 19.4881 19.1504 19.462 19.2106C19.436 19.2708 19.3978 19.325 19.35 19.3699C19.3054 19.4179 19.2511 19.4561 19.1909 19.4819C19.1306 19.5078 19.0656 19.5207 19 19.5199Z" />
+				</svg>
+			</button>
+		</div>
+	</header>
+	</header>
+
+	<main class="goods">
+		<!--Slider starts-->
+		<section class="slider">
+			<div class="wrapper">
+				<div class="slider-container">
+					<div class="slider-slide">
+						<img class="slider-slide__img" src="style/assets/slider/1.jpg" alt="img">
+					</div>
+					<div class="slider-slide">
+						<img class="slider-slide__img" src="style/assets/slider/2.jpg" alt="img">
+					</div>
+					<div class="slider-slide">
+						<img class="slider-slide__img" src="style/assets/slider/3.png" alt="img">
+					</div>
+					<div class="slider-slide">
+						<img class="slider-slide__img" src="style/assets/slider/4.jpg" alt="img">
+					</div>
+					<div class="slider-slide">
+						<img class="slider-slide__img" src="style/assets/slider/5.jpg" alt="img">
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Slider ends-->
+		<div class="wrapper">
+			<h2 class="goods-title">Хиты продаж</h2>
+			<div class="goods-wrapper">
+<!--				<div class="goods-card">-->
+<!--					<div class="card-main">-->
+<!--						<img class="card-main__img" src="style/assets/goods-main/2.jpg" alt="img">-->
+<!--						<span class="card-main__discount"> -20% </span>-->
+<!--						<button class="card-main__basket">-->
+<!--							<img class="card-main__basket__svg" src="style/assets/goods-main/s.svg" alt="">-->
+<!--						</button>-->
+<!--						<a href="#" class="card-main__btn">Быстрый просмотр</a>-->
+<!--					</div>-->
+<!--					<div class="card-content">-->
+<!--						<div class="card-content__price">-->
+<!--							<p class="card-content__price&#45;&#45;discounted">1000р</p>-->
+<!--							<p class="card-content__price&#45;&#45;total">3000р</p>-->
+<!--						</div>-->
+<!--						<p class="card-content__name">Садху доска </p>-->
+<!--					</div>-->
+<!--				</div>-->
+			</div>
+
+			<!--show momre button-->
+			<button class="show-more"> Показать больше
+				<svg class="show-more__svg" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" clip-rule="evenodd"
+						d="M7.361.238a.977.977 0 011.278 0l7.097 6.377a.755.755 0 010 1.147.977.977 0 01-1.278 0L8 1.96 1.542 7.762a.977.977 0 01-1.277 0 .755.755 0 010-1.147L7.36.238z" />
+					<rect width="2" height="16" rx="1" transform="matrix(-1 0 0 1 9 0)" />
+				</svg>
+			</button>
+
+			<!--Advertisment-->
+			<div class="adv-card">
+				<div class="adv-card-block">
+					<img class="adv-card-img" src="style/assets/goods-main/ads1.jpg" alt="">
+				</div>
+				<div class="adv-card-block">
+					<img class="adv-card-img" src="style/assets/goods-main/ads2.jpg" alt="">
+				</div>
+			</div>
+
+			<!--Popular brands-->
+			<div class="brand">
+
+				<div class="brands-head">
+					<h2 class="brands-title">Популярные бренды</h2>
+					<a class="brands-title-link" href="#">Смотреть все</a>
+				</div>
+				<div class="brands-logo">
+					<img class="brands-logo-img" src="style/assets/brands/brand1.jpg" alt="">
+					<img class="brands-logo-img" src="style/assets/brands/brand2.jpg" alt="">
+					<img class="brands-logo-img" src="style/assets/brands/brand3.jpg" alt="">
+					<img class="brands-logo-img" src="style/assets/brands/brand4.jpg" alt="">
+					<img class="brands-logo-img" src="style/assets/brands/brand5.jpg" alt="">
+					<img class="brands-logo-img" src="style/assets/brands/brand6.jpg" alt="">
+					<img class="brands-logo-img" src="style/assets/brands/brand7.jpg" alt="">
+					<img class="brands-logo-img" src="style/assets/brands/brand8.jpg" alt="">
+					<img class="brands-logo-img" src="style/assets/brands/brand9.jpg" alt="">
+					<img class="brands-logo-img" src="style/assets/brands/brand10.jpg" alt="">
+						<div class="brands-logo brands-logo--second hidden">
+							<img class="brands-logo-img" src="style/assets/brands/brand11.jpg" alt="">
+							<img class="brands-logo-img" src="style/assets/brands/brand12.jpg" alt="">
+							<img class="brands-logo-img" src="style/assets/brands/brand13.jpg" alt="">
+							<img class="brands-logo-img" src="style/assets/brands/brand14.jpg" alt="">
+							<img class="brands-logo-img" src="style/assets/brands/brand15.jpg" alt="">
+							<img class="brands-logo-img" src="style/assets/brands/brand16.jpg" alt="">
+							<img class="brands-logo-img" src="style/assets/brands/brand17.jpg" alt="">
+							<img class="brands-logo-img" src="style/assets/brands/brand18.jpg" alt="">
+							<img class="brands-logo-img" src="style/assets/brands/brand19.jpg" alt="">
+							<img class="brands-logo-img" src="style/assets/brands/brand20.jpg" alt="">
+						</div>
+				</div>
+
+			</div>
+		</div>
+	</main>
+	<!--basket-popup-js-->
+	<div id="basket" class="basket-popup">
+		<div class="basket-body">
+			<div class="basket-content">
+				<a href="#header" class="basket__close">&#10006;</a>
+				<div class="basket__heading">
+					<h3 class="basket__heading__title">Корзина</h3>
+					<button class="basket__heading__btn">Очистить корзину</button>
+				</div>
+				<ul class="basket__list">
+					<!--                <li class="basket__list__item">-->
+					<!--                    <p class="basket__item__name">Мойка</p>-->
+					<!--                    <p class="basket__item__price">200</p>-->
+					<!--                </li>-->
+					<!--                <li class="basket__list__item">-->
+					<!--                    <p class="basket__item__name">Nfydhjsksklssls;;s</p>-->
+					<!--                    <p class="basket__item__price">200</p>-->
+					<!--                </li>-->
+				</ul>
+				<p class="basket__summation">Итого: 2000</p>
+			</div>
+		</div>
+	</div>
+
+	<!--Footer-->
+	<footer class="footer" id="footer">
+		<div class="wrapper">
+			<div class="footer-wrapper">
+				<div class="customers ">
+					<ul class="footer-list-title display-none">Покупателям
+						<li class="footer-list-li">Как сделать заказ</li>
+						<li class="footer-list-li">Способы оплаты</li>
+						<li class="footer-list-li">Доставка</li>
+						<li class="footer-list-li">Вопросы и ответы</li>
+					</ul>
+				</div>
+				<div class="partners">
+					<ul class="footer-list-title display-none">Партнерам
+						<li class="footer-list-li">Продавайте на Wildberries</li>
+						<li class="footer-list-li">Откройте пункт выдачи</li>
+						<li class="footer-list-li">Франшизный пункт выдачи</li>
+					</ul>
+				</div>
+				<div class="company">
+					<ul class="footer-list-title display-none">Компания
+						<li class="footer-list-li">О нас</li>
+						<li class="footer-list-li">Реквизиты</li>
+						<li class="footer-list-li">Контакты</li>
+						<li class="footer-list-li"><a href="https://t.me/wbdevs">WB.Tech</a></li>
+					</ul>
+				</div>
+				<div class="site">
+					<ul class="footer-list-title footer-img display-none">Мы в соцсетях
+						<li class="footer-list-li"> <a href="https://vk.com/public42631504">Вконтакте</a></li>
+						<li class="footer-list-li"><a href="https://ok.ru/wildberriesby">Одноклассники</a></li>
+						<li class="footer-list-li"><a href="https://www.youtube.com/Wildberriesshop">YouTube</a></li>
+					</ul>
+				</div>
+				<div class="mobile">
+					<ul class="footer-list-title display-none">Мобильные устройства
+						<li class="footer-list-li ">
+							<img class='download' src="style/assets/footer/google.png" alt="google">
+						</li>
+						<li class="footer-list-li ">
+							<img class='download' src="style/assets/footer/apple.png" alt="apple">
+						</li>
+						<li class="footer-list-li">
+							<img class='download' src="style/assets/footer/appstore.png" alt="appgallery">
+						</li>
+					</ul>
+				</div>
+				<div class="customers-adaptive">
+					<ul class="footer-list-title customers-list">
+						<li class="footer-list-li">Как сделать заказ</li>
+						<li class="footer-list-li">Способы оплаты</li>
+						<li class="footer-list-li">Доставка</li>
+						<li class="footer-list-li">Вопросы и ответы</li>
+					</ul>
+				</div>
+				<div class="mobile-adaptive">
+					<ul class="footer-list-title list-mobile">
+						<li class="footer-list-li list-mobile">
+							<img class='download' src="style/assets/footer/google.png" alt="google">
+						</li>
+						<li class="footer-list-li list-mobile">
+							<img class='download' src="style/assets/footer/apple.png" alt="apple">
+						</li>
+						<li class="footer-list-li list-mobile">
+							<img class='download' src="style/assets/footer/appstore.png" alt="appgallery">
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="rights">
+				<p class="wildberries-rights">2004-2022 © Wildberries — модный интернет-магазин одежды, обуви и аксессуаров.
+				</p>
+				<p class="wildberries-rights">Все права защищены.</p>
+				<p class="wildberries-compatibility"><a
+						href="https://by.wildberries.ru/services/proverka-sovmestimosti">Проверка совместимости</a></p>
+			</div>
+			<div class="payment-method">
+				<img src="style/assets/footer/visa.svg" alt="">
+				<img src="style/assets/footer/mastercard.svg" alt="">
+				<img src="style/assets/footer/mir.svg" alt="">
+			</div>
+		</div>
+	</footer>
+	<!--Уведомление, что корзина пуста-->
+	<div id="empty" class="notification">
+		<div class="notification-body">
+			<div id="empty-content" class="notification-content">
+				Корзина пуста!
+			</div>
+		</div>
+	</div>
+	<!--Уведомление, что товар добавлен в корзину-->
+	<div id="add" class="notification">
+		<div class="notification-body">
+			<div id="add-content" class="notification-content">
+				Товар добавлен в корзину!
+			</div>
+		</div>
+	</div>
+	<!--Модальное окно с чатом поддержки-->
+	<div id="chat" class="chat">
+		<div class="chat-wrapper">
+			<div class="chat-header">
+				<h2 class="chat__header__title">Чат поддержки</h2>
+				<button class="chat__header__btn" type="button" >Закрыть</button>
+			</div>
+			<div class="chat-content">
+				<p class="chat-content__message">Вас приветствует виртуальный помощник службы поддержки. Если у Вас возник вопрос - задайте его в этом чате, и я с удовольствием отвечу на него.</p>
+			</div>
+			<div class="chat-footer">
+				<form id="form" class="chat-form" method="POST">
+						<textarea name="message" placeholder="Ваше сообщение" id="textarea" cols="30" rows="10"></textarea>
+				</form>
+				<button class="chat-btn__send" type="submit" form="form">
+					<svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M.284.877L1.42 8.839 2.064 9l-.643.16-1.137 7.963L16.53 9 .284.877zm2.629 6.617l-.53-3.704L12.803 9l-10.42 5.21.53-3.704L8.936 9 2.913 7.494z" fill="#999"/></svg>
+				</button>
+			</div>
+		</div>
+	</div>
+	<!--Модальное окно "Быстрый просмотр" товара-->
+	<div class="popup" id="popup">
+		<div class="popup-body">
+			<div class="popup-content">
+				<img class="popup-content__image" src="style/assets/slider/goods/good.jpg" alt="img">
+				<div class="popup-content__elements">
+					<a href="#" class="popup-close close-popup">X</a>
+					<div class="popup-content__text"></div>
+					<div class="popup-content__price"></div>
+					<div class="popup-content__price-text">Цена с учетом скидки:</div>
+					<div class="popup-content__discount"></div>
+					<button class="popup-content__basket-button">Купить</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Форма авторизации-->
+	<div class="authorization">
+		<div class="authorization-body">
+			<div class="authorization-content">
+				<div class="authorization-content__header">
+					<div class="authorization-title">Введите логин и пароль</div>
+					<a href="#" class="authorization-content__close">X</a>
+				</div>
+				<form id="authorization-form" class="authorization-form">
+					<div class="authorization-block">
+						<label for="login" class="authorization-block__label">Ваш логин:</label>
+						<input id="login" type="text" class="authorization-block__input" placeholder="Login">
+					</div>
+					<div class="authorization-block">
+						<label for="password" class="authorization-block__label">Ваш пароль:</label>
+						<input	id="password" value="" class="authorization-block__input" placeholder="Password" type="password" class="authorization-block__input" placeholder="Password">
+					</div>
+					<button type="button" form="authorization-form" class="authorization-form__button-submit">Войти</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!--Изменения адреса -->
+	<div class="addresses-list" id="addresses-list">
+		<div class="ad__list-body">
+			<div class="ad__list-content">
+				<span class="ad__close">&times;</span>
+				<div class="ad__list-title">Пункты выдачи</div>
+				<div class="ad__list-text">
+					<a href=# class="ad__list-text" id="address-minsk">г. Минск, улица Янки Купалы, д. 7</a>
+					<a href=# class="ad__list-text" id="address-homel">г. Гомель, улица Карповича 21</a>
+					<a href=# class="ad__list-text" id="address-vitebsk">г. Витебск, Московский проспект 19к1 </a>
+					<a href=# class="ad__list-text" id="address-hrodna">г. Гродно, улица Максима Горького 91 </a>
+					<a href=# class="ad__list-text" id="address-brest">г. Брест, улица Морозова, д. 5</a>
+					<a href="https://by.wildberries.ru/services/besplatnaya-dostavka" class="ad__list-text">И ещё 451 пункт</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="module" src="scripts/index.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="scripts/slick.min.js"></script>
+
+</body>
+
+</html>

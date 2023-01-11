@@ -1,0 +1,38 @@
+@import "./basket.css";
+@import "./header.css";
+@import "./slider.css";
+@import "./footer.css";
+@import "./main.css";
+@import "./burger.css";
+@import "./popupImg.css";
+@import "./chat.css";
+@import "./adress.css";
+@import "./authorization.css";
+@import "./adaptive.css";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	scroll-behavior: smooth;
+}
+
+.wrapper {
+	padding: 0 10px;
+	max-width: 1400px;
+	margin: auto;
+}
+
+body {
+	background: linear-gradient(to right, #cb11ab 0, #481173 100%) no-repeat;
+}
+
+.hidden {
+	display: none;
+}
+
+
+

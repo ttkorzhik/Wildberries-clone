@@ -1,0 +1,73 @@
+/*Footer*/
+.footer {
+	background: #481173;
+	padding: 16px 0 40px;
+	z-index: 1;
+}
+
+.footer-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.footer-list-title {
+	font-weight: 700;
+	padding: 10px 0;
+	color: #fff;
+	font-size: 18px;
+}
+
+.footer-list-li {
+	list-style-type: none;
+	font-weight: 400;
+	margin-top: 15px;
+	cursor: pointer;
+	color: #999;
+	font-size: 18px;
+	font-weight: 500;
+	transition: 0.5s;
+}
+
+.footer-list-li a {
+
+	color: #999;
+}
+
+.footer-list-li:hover,
+.footer-list-li a:hover {
+	color: white;
+}
+
+.rights {
+	padding: 20px 0;
+}
+
+.rights p {
+	color: #999;
+	text-align: center;
+	font-size: 14px;
+}
+
+.rights p a {
+	color: #999;
+	text-decoration: underline;
+	transition: 0.3s;
+}
+
+.rights p a:hover {
+	color: #fff;
+}
+
+.payment-method img {
+	display: block;
+}
+
+.payment-method {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
